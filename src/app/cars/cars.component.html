@@ -1,0 +1,11 @@
+<h2>Assignment 1</h2>
+<div [hidden]="hide">
+            <div *ngFor="let c of cars">
+                <td>{{c.make}}</td>
+                <td>---{{c.model}}</td>
+                <td>---{{c.year}}</td>
+                <br>
+            </div>
+</div>
+<br>
+    <button (click)="toggle()">Toggle Me</button>

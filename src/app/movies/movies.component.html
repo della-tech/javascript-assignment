@@ -1,0 +1,19 @@
+<hr>
+<h2>Assignment 3</h2>
+<table border="3">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Genre</th>
+      <th>Director</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let m of movies">
+      <td>{{ m.title }}</td>
+      <td>{{ m.genre }}</td>
+      <td>{{ m.director }}</td>
+    </tr>
+  </tbody>
+</table>
+
